@@ -10,6 +10,10 @@ public class Main {
         System.out.println(c);
         int d = multiply(a, b);
         System.out.println(d);
+        int f = subtraction(a, b);
+        System.out.println(f);
+        int g = division(a, b);
+        System.out.println(g);
 
     }
 
@@ -19,5 +23,14 @@ public class Main {
 
     private static int multiply(int a, int b) {
         return a * b;
+    }
+
+    private static int subtraction(int a, int b) {
+        return a - b;
+    }
+
+
+    private static int division(int a, int b) {
+        return a / b;
     }
 }
